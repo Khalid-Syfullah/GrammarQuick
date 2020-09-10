@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Future"
+    tools:showIn="@layout/activity_future">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future Indifinite Tense"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past indefinite tense denotes an action in the future time\n\n"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject + shall/will + verb + object \n\n"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I will/shall do the work. \n\nThey will/shall do the work.\n\nHe will go to the school.\n\n"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future Continous Tense"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future continuous tense is used when an action is thought to be going on in the future.\n\n"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject + shall be/will be + main verb + ing + object.\n\n"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text=" I shall be reading the book..\n\n They will be playing football.\n\n  He will be going to office.\n\n"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future Perfect Tense"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Future perfect tense is used to indicate the completion of an action by a certain time in the future.\n\n"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Subject + shall have/will have + past participle + object.\n\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I shall have eaten rice.\n\nHe will have gone to school.\n\nThey will have done the work.\n\nHe had just played football.\n\nThey had played football. \n\n"
+                />
+
+            //
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future Perfect Continous Tense"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Future perfect tense is used when an action will have been continuing by a certain future time.\n\n"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Subject + shall have been/will have been + main verb + ing + since/from/for + object.\n\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I shal have been doing this work for two days.\n\nHe will have been reading for two hours.\n\nFahim will have been suffering from fever since sunday last.\n\nHe will have been living here from his boyhood.\n\n"
+                />
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

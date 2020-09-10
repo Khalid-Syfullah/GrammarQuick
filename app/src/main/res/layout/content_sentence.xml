@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Sentence"
+    tools:showIn="@layout/activity_sentence">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/def"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Definition"
+                android:textColor="#A71212"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/content"
+                android:layout_below="@id/def"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/large_text"
+                android:textSize="15sp"
+                android:textColor="#0B0B0B"/>
+
+            <TextView
+                android:id="@+id/typ"
+                android:layout_below="@id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp"
+                android:textColor="#A71212"
+                android:text="Five Types Of Sentence"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_below="@id/typ">
+                <Button
+                    android:id="@+id/assertive"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assertive Sentence"/>
+                <Button
+                    android:id="@+id/interrogative"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interrogative Sentence"/>
+                <Button
+                    android:id="@+id/imperative"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Imperative Sentence"/>
+                <Button
+                    android:id="@+id/optative"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Optative Sentence"/>
+                <Button
+                    android:id="@+id/exclamatory"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exclamatory Sentence"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

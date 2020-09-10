@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Past"
+    tools:showIn="@layout/activity_past">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past Indifinite Tense"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past indefinite tense denotes an action in the past time"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject + past form of main verb + object.\n\n"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+               android:text="I ate rice.\n\nHe went to school.\n\nLuna sang a song. \n\n"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past Continous Tense"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past continuous tense is used when the action was continued for some time in the past.\n\n"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject + was/were + main verb + ing + object.\n\n"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I was eating rice.\n\n He was going to school.\n\n They were playing football.\n\n"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past Perfect Tense"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Past perfect tense is used in the former action between two completed actions of the past; simple past is used in the later action.\n\n"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Subject + had + past participle + object.\n\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I had eaten rice.\n\nHe had gone to school.\n\nThey had done the work.\n\nHe had just played football.\n\nThey had played football. \n\n"
+                />
+
+            //
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past Perfect Continous Tense"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Past perfect continuous tense is used for an action that begun before a certain point in the past and continued up to that time.\n\n"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Structure"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="Subject + had been + main verb + ing + since/from/for + object.\n\n"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="I had been doing this work for two days.\n\nHe had been reading for two hours.\n\nFahim had been suffering from fever since sunday last.\n\nHe had been living here from his boyhood.\n\n"
+                />
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

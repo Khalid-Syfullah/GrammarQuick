@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Exclamatory"
+    tools:showIn="@layout/activity_exclamatory">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="Exclamatory is a sentence which expresses strong/sudden feeling or emotion like surprise, pain, delight, anger, disgust, etc."
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pattern"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="Alas/ Hurrah/ Bravo/ What/ How etc. + Others"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="- Hurrah! Our cricket team has won the series.\n\n
+- Alas! He has failed the competition.\n\n
+- Bravo! You have done a great job.\n\n
+- What a talented girl she is!\n\n
+- How sweetly the cuckoo sings!\n\n
+- What a wonderful land Bangladesh is!\n\n
+- Were I a Super Hero!\n\n
+- What a pity!\n\n
+- Fantastic!\n\n
+- What an idea!\n\n
+- Put that down now!\n\n
+- Leave the package at the door.\n\n
+- Walk softly, please."/>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

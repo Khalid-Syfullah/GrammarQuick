@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Conjunction"
+    tools:showIn="@layout/activity_conjunction">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A conjunction is a part of speech or word that connects –
+- One word to another word.
+- One word to another clause.
+- One sentence to another sentence."
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some Conjuctions"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The conjunctions are and, but, or, for, nor, so, yet, because, if, whether, lest, unless, as, since, how, when, where, while, why, till, until, after, before, however, as soon as, though and than."
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="One word to another word:\n\n
+- Rupom and Rifat are two brothers. (noun to noun)\n\n
+- Rimi and you have done this work. (Noun to pronoun)\n\n
+- You and I will go there. (Pronoun to pronoun)\n\n
+- The old man sat down and wept. (verb to verb)\n\n
+- We are sad but hopeful. (adjective to adjective)\n\n
+- A cat moves slowly and silently. (Adverb to adverb)\n\n
+- The bird flies through and through the sky. (preposition to preposition)\n\n
+
+One word to another clause:\n\n
+- He is so weak that he cannot walk.\n\n
+- Such was her beauty that everybody loved her.\n\n
+
+One sentence to another sentence:\n\n
+- I trust him because he is honest.\n\n
+- He says that he will do it.\n\n
+- They will come if they are allowed here.\n\n
+- It is a long time since I saw you last.\n\n
+- You must wait here until your father comes back.\n\n
+- I wish to know whether he will come or not."
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

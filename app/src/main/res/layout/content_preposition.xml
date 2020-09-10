@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Preposition"
+    tools:showIn="@layout/activity_preposition">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The word preposition indicates positioning something before something else. And in English grammar-
+
+A preposition is a word placed or positioned before a noun or a pronoun or noun equivalent to show the relationship between a noun or pronoun and other words in a sentence."
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Function Of Preposition"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A preposition sits before a noun or a pronoun to show noun’s or pronoun’s relationship to another word in the sentence. Preposition helps to construct a sentence."
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+              android:text="- He is looking 'for' papers.\n\n
+- Rifat lives 'in' Dhaka.\n\n
+- Place the book 'on' the table.\n\n
+- I will go there 'after' breakfast.\n\n
+- Look 'at' the sky clearly.\n\n
+- You should stand 'by' him."
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

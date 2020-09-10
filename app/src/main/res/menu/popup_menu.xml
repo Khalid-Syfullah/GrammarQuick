@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/sen"
+    android:title="Sentence"/>
+
+    <item
+        android:id="@+id/part"
+        android:title="Parts Of Speech"/>
+
+
+    <item
+        android:id="@+id/num"
+        android:title="Number"/>
+
+
+    <item
+        android:id="@+id/gen"
+        android:title="Gender"/>
+
+
+    <item
+        android:id="@+id/ten"
+        android:title="Tense"/>
+
+
+    <item
+        android:id="@+id/arti"
+        android:title="Articles"/>
+
+
+    <item
+        android:id="@+id/deg"
+        android:title="Degree"/>
+    <item
+        android:id="@+id/voi"
+        android:title="Voice"/>
+    <item
+        android:id="@+id/tran"
+        android:title="Transformation"/>
+
+
+
+</menu>

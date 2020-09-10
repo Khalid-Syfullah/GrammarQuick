@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">GrammarQuick</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="registraion">Registration</string>
+    <string name="demob">Demo</string>
+    <string name="or">OR</string>
+    <string name="action_sign_in_short">Sign Up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="titlemain">English Grammar</string>
+    <string name="navdrawer_open">Open navigation drawer</string>
+    <string name="navdrawer_close">Close navigation drawer</string>
+    <string name="navheader_title">English Grammar</string>
+    <string name="navheadersubtitle">Portable Book For Android</string>
+    <string name="navheaderdesc">Navigation header</string>
+    <string name="actionsettings">Settings</string>
+    <string name="grammartitle">Grammar</string>
+    <string name="grammarintro">Grammar is the system of a language. People sometimes describe grammar as the "rules" of a language; but in fact no language has rules*. If we use the word "rules", we suggest that somebody created the rules first and then spoke the language, like a new game. But languages did not start like that. Languages started by people making sounds which evolved into words, phrases and sentences. No commonly-spoken language is fixed. All languages change over time. What we call "grammar" is simply a reflection of a language at a particular time.</string>
+    <string name="englishtitle">English Grammar</string>
+    <string name="englishinto">English grammar is the way in which meanings are encoded into wordings in the English language. This includes the structure of words, phrases, clauses, and sentences, right up to the structure of whole texts. There are historical, social, cultural and regional variations of English.</string>
+    <string name="start_learning_english_grammar">Start Learning english Grammar</string>
+    <string name="title_activity_sentence">Sentence</string>
+    <string name="large_text">
+        A sentence is a word or group of words that must expresses a complete idea or sense or meaning and that may consists of a subject and a verb.
+
+Also it may have an object or a complement and the words must be order properly.\n\n\n\n
+
+
+==>We practice English everyday. \n
+        (Here we is subject, practice is verb, English is object and everyday is adverb)\n\n
+
+==>Basically there are two parts of a sentence: \n
+        1) Subject\n
+2)Predicate\n\n\n
+Subject: A subject of a sentence is a person or thing about which something is said or written.\n
+
+Predicate: And the Predicate that says what the Subject does.\n
+
+
+In the above example ‘We’ is subject and ‘practice English everyday’ is Predicate. A sentence usually starts with a subject and then predicate comes.\n\n\n
+
+N. B.: In some case like order, advice or request subject is not mentioned. It is userstood.\n\n\n
+Example:\n\n
+(You) Keep quite.\n
+(You) Take care of your health.\n
+(I) Thank you.\n
+And sometimes sentence starts with the predicate and then subject comes.\n\n
+Example:\n\n\n
+Long live Bangladesh\n
+Down went the Titanic.\n\n
+
+</string>
+    <string name="title_activity_tense">Tense</string>
+    <string name="title_activity_voice">Voice</string>
+    <string name="title_activity_articles">Articles</string>
+    <string name="title_activity_transformation">Transformation</string>
+    <string name="title_activity_number">Number</string>
+    <string name="title_activity_gender">Gender</string>
+    <string name="title_activity_degree">Degree</string>
+    <string name="title_activity_parts_of_speech">PartsOfSpeech</string>
+    <string name="title_activity_registration">Sign in</string>
+
+    <string name="c">C Programming</string>
+    <string name="cpp">C++ Programming</string>
+    <string name="java">Java Programming</string>
+    <string name="grammar">English Grammar</string>
+
+    <string name="title_activity_cprogramming">Cprogramming</string>
+    <string name="navdrweropen">Open navigation drawer</string>
+    <string name="navigation_drawerclose">Close navigation drawer</string>
+    <string name="titlenav_header">Android Studio</string>
+    <string name="subtitlenav_header">android.studio@android.com</string>
+    <string name="nav_Hdesc">Navigation header</string>
+    <string name="settingsaction">Settings</string>
+
+    <string name="title_activity_c_plusplus">C_plusplus</string>
+    <string name="navidraweropen">Open navigation drawer</string>
+    <string name="navigdrawer_close">Close navigation drawer</string>
+    <string name="navi_header_title">Android Studio</string>
+    <string name="navig_header_subtitle">android.studio@android.com</string>
+    <string name="navig_header_desc">Navigation header</string>
+    <string name="action_settin">Settings</string>
+
+    <string name="title_activity_java__programming">Java_Programming</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="header_title">Android Studio</string>
+    <string name="navheader_sub">android.studio@android.com</string>
+    <string name="navhderdesc">Navigation header</string>
+    <string name="action_sett">Settings</string>
+
+
+    <string name="startLearning">Start Learning English Grammar</string>
+    <string name="title_activity_assertive">Assertive</string>
+    <string name="title_activity_interrogative">Interrogative</string>
+    <string name="title_activity_imperative">Imperative</string>
+    <string name="title_activity_optative">Optative</string>
+    <string name="title_activity_exclamatory">Exclamatory</string>
+    <string name="title_activity_noun">Noun</string>
+    <string name="title_activity_pronoun">Pronoun</string>
+    <string name="title_activity_verb">Verb</string>
+    <string name="title_activity_adverb">Adverb</string>
+    <string name="title_activity_adjective">Adjective</string>
+    <string name="title_activity_preposition">Preposition</string>
+    <string name="title_activity_conjunction">Conjunction</string>
+    <string name="title_activity_interjection">Interjection</string>
+
+
+    <string name="interrogative_d">There are two ways to form an interrogative sentence.\n\n
+
+I. Beginning with helping verbs (am, is, are, was, were, have, has, had) or modal auxiliaries (shall, should, will, would, can, could, may, might, etc.).\n\n
+
+- Do you have your assignment ready?\n
+
+- Did she work abroad?\n
+- Should I go there?\n
+- Can you hear the sound?\n
+\n
+
+II. Beginning with some specific words like who, which, what, when, where, why, how, whom, how much, how many, etc. [These are known as ‘WH’ questions.]\n\n</string>
+    - Who fixed the computer?\n
+    - How many people have died there?\n
+    <string name="interrogative_ex">- How is your business going on?\n\n
+- Don’t you want any food?\n\n
+- Whom do you support?\n\n
+        - Does he speak English?\n\n
+- What are you expecting from me?\n\n
+- What time is it now?\n\n
+- How many people have died there?\n\n</string>
+    <string name="title_activity_present_indifinite">PresentIndifinite</string>
+    <string name="title_activity_past">Past</string>
+    <string name="title_activity_future">Future</string>
+    <string name="title_activity_present">Present</string>
+</resources>

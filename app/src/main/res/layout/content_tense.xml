@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Tense"
+    tools:showIn="@layout/activity_tense">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In English Grammar Tense is used to refer to time of an action or event.\n\n
+
+Tense is the concept of time which may be present, past or future.\n\n"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classifications"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The concept of time (tense) can be differentiated into three categories.\n\n
+
+    1. Present / simple present tense.(what are you presently doing)\n\n
+    2. Past.(What you did some time back).\n\n
+    3. future. (What you will do some time later).\n\n\n\nAnd all of these tenses are differentiated into the following four categories:
+
+    1) Indefinite Tense\n\n
+    2) Continuous Tense\n\n
+    3) Perfect Tense\n\n
+    4) Perfect Continuous Tense\n\n
+
+"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+               android:text="- I eat rice. (present)\n\n
+- I ate rice. (past)\n\n
+- I will eat rice. (future)\n\n"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Any Of Them To Read More"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <Button
+                android:id="@+id/present"
+                android:background="@drawable/buttonrad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Present Tense"
+                />
+            <Button
+                android:id="@+id/past"
+                android:background="@drawable/buttonrad"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Past Tense"/>
+            <Button
+                android:id="@+id/future"
+                android:background="@drawable/buttonrad"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Future Tense"/>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

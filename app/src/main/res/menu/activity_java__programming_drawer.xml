@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/basic3"
+            android:title="Basic Syntax" />
+        <item
+            android:id="@+id/datatype3"
+            android:title="Data Types" />
+        <item
+            android:id="@+id/variables3"
+            android:title="Variable Types" />
+        <item
+            android:id="@+id/loops3"
+            android:title="Loop Types" />
+        <item
+            android:id="@+id/functions3"
+            android:title="Methods" />
+        <item
+            android:id="@+id/arrays3"
+            android:title="Arrays" />
+        <item
+            android:id="@+id/strings3"
+            android:title="Strings" />
+        <item
+            android:id="@+id/class3"
+            android:title="Class And Object" />
+        <item
+            android:id="@+id/constructor3"
+            android:title="Constructors" />
+        <item
+            android:id="@+id/Exceptions3"
+            android:title="Exceptions" />
+        <item
+            android:id="@+id/inheritance3"
+            android:title="Inheritance" />
+        <item
+            android:id="@+id/overriding3"
+            android:title="Overriding" />
+        <item
+            android:id="@+id/polymorphism3"
+            android:title="Polymorphism" />
+        <item
+            android:id="@+id/abstraction3"
+            android:title="Abstraction" />
+        <item
+            android:id="@+id/encapsulation3"
+            android:title="Encapsulation" />
+        <item
+            android:id="@+id/interface3"
+            android:title="Interfaces" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_sharejava"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sendjava"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

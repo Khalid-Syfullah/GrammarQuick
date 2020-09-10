@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PartsOfSpeech"
+    tools:showIn="@layout/activity_parts_of_speech">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/titleP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Parts Of Speech"
+        android:textColor="#A71212"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/deffP"
+        android:layout_below="@id/titleP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="In a sentence words are divided into different classes or kinds because of their functions and usage.\n\nAnd it is described by the term of parts of speech.Parts of speech help to understand the uses or functions words and how different words can make a meaningful sentence."
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B"
+        />
+
+    <TextView
+        android:id="@+id/types"
+        android:layout_below="@id/deffP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="There are Eight types of parts of speech."
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#A71212"
+        />
+    <LinearLayout
+        android:layout_below="@id/types"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/noun"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noun"/>
+        <Button
+            android:id="@+id/pronoun"
+            android:background="@drawable/buttonrad"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pronoun"/>
+        <Button
+            android:id="@+id/verb"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verb"/>
+        <Button
+            android:id="@+id/adverb"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adverb"/>
+        <Button
+            android:id="@+id/adjective"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adjective"/>
+        <Button
+            android:id="@+id/preposition"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preposition"/>
+        <Button
+            android:id="@+id/conjuction"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conjuction"/>
+        <Button
+            android:id="@+id/interjection"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonrad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interjection"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

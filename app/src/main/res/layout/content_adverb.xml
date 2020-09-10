@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Adverb"
+    tools:showIn="@layout/activity_adverb">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="30sp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An adverb is a word which modifies or qualifies the meaning of a verb, adjective, other adverb or any other word(s) or phrase(s) in a sentence; such as quickly, firmly, lightly, carefully, extremely, etc. "
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1B1919"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Function Of Adverb"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:text="Adverb adds information and impression about time, manner, place etc. in a sentence.\n
+
+Form of Adverbs:
+Many adverbs that express how an action is performed, end in ‘ly’. However, there are many exceptions, like fast, well, never, least, more, far, now, very, just, still, etc."
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#A71212"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#1B1919"
+                android:layout_marginTop="20dp"
+                android:text="- I have 'already' finished my job.\n\n
+- I will do it 'now'.\n\n
+- The result will be published 'tomorrow'.\n\n
+- Rafat is speaking 'quietly'.\n\n
+- He is doing the job 'carefully'.\n\n
+- The boy is crying 'loudly'.\n\n
+- He is 'quite' wrong.\n\n
+- She is 'fully' cured.\n\n
+- He is bad 'enough' to kill you.\n\n
+"
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
