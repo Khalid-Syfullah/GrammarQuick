@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sentence"
+            android:title="Sentence" />
+        <item
+            android:id="@+id/partsofspeech"
+            android:title="Parts Of Speech" />
+        <item
+            android:id="@+id/number"
+            android:title="Number" />
+        <item
+            android:id="@+id/gender"
+            android:title="Gender" />
+        <item
+            android:id="@+id/tense"
+            android:title="Tense" />
+        <item
+            android:id="@+id/articles"
+            android:title="Articles" />
+        <item
+            android:id="@+id/degree"
+            android:title="Degree" />
+        <item
+            android:id="@+id/voice"
+            android:title="Voice" />
+        <item
+            android:id="@+id/transformation"
+            android:title="Transformation" />
+        <item
+            android:id="@+id/resultActivity"
+            android:title="Result" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

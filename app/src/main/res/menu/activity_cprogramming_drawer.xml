@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Basic1"
+            android:title="Basic Syntax" />
+        <item
+            android:id="@+id/datatype1"
+            android:title="Data Types" />
+        <item
+            android:id="@+id/variables1"
+            android:title="Variables" />
+        <item
+            android:id="@+id/lopps1"
+            android:title="Loops" />
+        <item
+            android:id="@+id/functions1"
+            android:title="Functions" />
+        <item
+            android:id="@+id/arrays1"
+            android:title="Arrays" />
+        <item
+            android:id="@+id/pointer1"
+            android:title="Pointers" />
+        <item
+            android:id="@+id/strings1"
+            android:title="Strings" />
+        <item
+            android:id="@+id/typecasting1"
+            android:title="Type Casting" />
+        <item
+            android:id="@+id/file1"
+            android:title="File I/O" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_shareC"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sendC"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/basic2"
+            android:title="Basic Syntax" />
+        <item
+            android:id="@+id/comments2"
+            android:title="Comments" />
+        <item
+            android:id="@+id/datatype2"
+            android:title="Data Types" />
+        <item
+            android:id="@+id/variables2"
+            android:title="Variable Types" />
+        <item
+            android:id="@+id/operators2"
+            android:title="Operators" />
+        <item
+            android:id="@+id/loops2"
+            android:title="Loop Types" />
+        <item
+            android:id="@+id/functions2"
+            android:title="Functions" />
+        <item
+            android:id="@+id/arrays2"
+            android:title="Arrays" />
+        <item
+            android:id="@+id/strings2"
+            android:title="Strings" />
+        <item
+            android:id="@+id/pointer2"
+            android:title="Pointers" />
+        <item
+            android:id="@+id/datastructur2"
+            android:title="Data Structures" />
+        <item
+            android:id="@+id/class2"
+            android:title="Class and Object" />
+        <item
+            android:id="@+id/inheritance2"
+            android:title="Inheritance" />
+        <item
+            android:id="@+id/overloading2"
+            android:title="Overloading" />
+        <item
+            android:id="@+id/polymorphism2"
+            android:title="Polymorphism" />
+        <item
+            android:id="@+id/abstraction2"
+            android:title="Abstraction" />
+        <item
+            android:id="@+id/encapsulation2"
+            android:title="Encapsulation" />
+        <item
+            android:id="@+id/interface2"
+            android:title="Interfaces" />
+        <item
+            android:id="@+id/templates2"
+            android:title="Templates" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_shareCpp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sendCpp"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
